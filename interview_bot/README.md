@@ -9,12 +9,6 @@ An advanced AI-powered interview simulation system that leverages multiple langu
   - Claude as candidate 1
   - Gemini as candidate 2
 
-- **Web Interface**:
-  - User-friendly Gradio interface
-  - Real-time interview progress
-  - Interactive question-answer flow
-  - Markdown-formatted conversation display
-
 - **Dynamic Interview Process**:
   - Customizable job roles
   - Technical question generation
@@ -50,24 +44,6 @@ pip install -r requirements.txt
 
 ### Usage
 
-#### Web Interface
-
-1. Start the web interface:
-```bash
-python src/web_interface.py
-```
-
-2. Open your browser and navigate to:
-- Local: http://localhost:7860
-- Public: Check the console for the public URL
-
-3. Using the interface:
-   - Enter the job role
-   - Click "Start Interview"
-   - Watch the interview progress
-   - Use "Get Responses & Next Question" to advance
-   - View the final evaluation at the end
-
 #### Command Line Interface
 
 1. Run the CLI version:
@@ -79,41 +55,6 @@ python src/interview_simulator.py
    - Enter job role
    - View questions and responses
    - Get final evaluation
-
-## 🖥️ Web Interface Features
-
-### Main Components
-
-1. **Job Role Input**:
-   - Enter any technical job role
-   - Examples: "Senior Data Scientist", "Full Stack Developer"
-
-2. **Interview Control**:
-   - Start Interview: Begin a new session
-   - Reset Interview: Clear current progress
-   - Get Responses: Proceed to next question
-
-3. **Display Areas**:
-   - Current Question: Shows active question
-   - Interview Progress: Full conversation history
-   - Status: Current state and instructions
-
-### Interview Flow
-
-1. **Starting an Interview**:
-   - Enter job role
-   - Click "Start Interview"
-   - First question appears automatically
-
-2. **During Interview**:
-   - View current question
-   - Click "Get Responses" to see candidates' answers
-   - Next question appears automatically
-   - Progress shown in markdown format
-
-3. **Completion**:
-   - Final evaluation shown after last question
-   - Option to reset and start new interview
 
 ## 📝 Example Output
 
