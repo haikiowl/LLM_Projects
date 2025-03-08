@@ -87,10 +87,7 @@ Contributions are welcome! Please feel free to submit pull requests.
 4. Push to the branch
 5. Create a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
 
-For questions and feedback, please open an issue or contact [your-email@example.com]
+For questions and feedback, please open an issue or contact [arharikasadineni@gmail.com]
